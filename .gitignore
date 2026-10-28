@@ -1,0 +1,39 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets.*
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Build outputs
+build/
+dist/
+*.egg-info/
+# Local data and generated artifacts
+instance/
+logs/
+*.log
+data/
+.ipynb_checkpoints/
+# Model artifacts; retain the supplied runtime model
+*.pkl
+*.joblib
+!model/loan_model.pkl
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
